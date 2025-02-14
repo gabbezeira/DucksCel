@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+	font-family: "Lato", sans-serif;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	/** Brand Colors **/
+	--primary-color: #7c2edb;
+	--primary-color-opacity: rgba(103, 60, 202, 0.15);
+
+	--secondary-color: #ffc412;
+	--text-color: #12193a;
+	--card-color: #edf2ff;
+
+	/** White Colors **/
+	--white-color: #f1f5ff;
+
+	/** Stroke Colors **/
+	--stroke-color: rgba(32, 22, 68, 0.25);
+
+	/** Alerts Colors **/
+	--alert-color: #d89e08;
+	--sip-alert: #b52222;
+	--beta-alert: #36d073;
+	--beta-alert-link: #2cf37b;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box !important;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: var(--white-color);
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	::selection {
+		background-color: var(--primary-color);
+		color: var(--white-color);
+	}
+}

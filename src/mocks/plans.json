@@ -1,0 +1,56 @@
+[
+	{
+		"name": "Start",
+		"velocity": 6,
+		"description": "4GB de franquia + 2GB de portabilidade",
+		"duration": "Plano válido por 15 dias (*Renovação automática)",
+		"apps": ["Whatsapp", "Waze", "Moovit"],
+		"basePrice": 29.9
+	},
+	{
+		"name": "Mega",
+		"velocity": 14,
+		"description": "10GB de franquia + 4GB de portabilidade",
+		"duration": "Plano válido por 30 dias (*Renovação automática)",
+		"apps": ["Whatsapp", "Waze", "Moovit"],
+		"basePrice": 59.9
+	},
+	{
+		"name": "Ultra",
+		"velocity": 18,
+		"description": "5GB de franquia + 4GB de bônus  + 5GB para Redes Sociais + 4GB de bônus de portabilidade",
+		"duration": "Plano válido por 30 dias (*Renovação automática)",
+		"apps": [
+			"Whatsapp",
+			"Waze",
+			"Moovit",
+			"Facebook",
+			"Messenger",
+			"X",
+			"Pinterest",
+			"Tinder",
+			"Tiktok",
+			"Instagram"
+		],
+		"basePrice": 69.9
+	},
+	{
+		"name": "Tuor",
+		"velocity": 28,
+		"description": "10GB de franquia + 3GB de bônus + 10GB para Redes Sociais + 5GB de bônus de portabilidade",
+		"duration": "Plano válido por 30 dias (*Renovação automática)",
+		"apps": [
+			"Whatsapp",
+			"Waze",
+			"Moovit",
+			"Facebook",
+			"Messenger",
+			"X",
+			"Pinterest",
+			"Tinder",
+			"Tiktok",
+			"Instagram"
+		],
+		"basePrice": 99.9
+	}
+]
