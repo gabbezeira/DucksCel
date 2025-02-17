@@ -60,7 +60,7 @@ export const Container = styled.div`
         flex-direction: column;
         justify-content: start;
         width: 100%;
-        gap: 0.625rem;
+        gap: 0.875rem;
 
         .text {
           font-size: 0.875rem;

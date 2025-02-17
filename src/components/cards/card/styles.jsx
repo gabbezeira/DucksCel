@@ -298,10 +298,5 @@ export const Container = styled.div`
     .right {
      display: none;
     }
-
-    .buyButton {
-      width: 20rem;
-    }
   }
-
 `
