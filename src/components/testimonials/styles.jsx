@@ -13,16 +13,19 @@ export const Container = styled.div`
   .texts {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    width: 100%;
 
-    .topTilte {
+    .top {
       font-size: 1.25rem;
       letter-spacing: 0.125rem;
       color: var(--primary-color);
       text-transform: uppercase;
     }
 
-    .title {
+    .bottom {
       font-size: 2.25rem;
       color: var(--text-color);
       text-transform: uppercase;
