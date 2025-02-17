@@ -3,9 +3,9 @@ import '@gs'
 
 export const Container = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-
+  gap: 1.25rem;
   padding: 3.75rem 10rem;
 
   .bannerCard {

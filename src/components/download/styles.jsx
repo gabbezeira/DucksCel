@@ -60,8 +60,10 @@ export const Container = styled.div`
       justify-content: center;
       flex-direction: row;
 
-      width: 30%;
+      width: 100%;
       height: auto;
+
+      gap: 0;
     }
   }
 `

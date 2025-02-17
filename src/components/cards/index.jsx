@@ -6,8 +6,8 @@ export function Cards() {
 	return (
 		<Container>
 			<div className="texts">
-				<div className="topTilte">Escolha o melhor</div>
-				<div className="title">Plano para você</div>
+				<div className="top">Escolha o melhor</div>
+				<div className="bottom">Plano para você</div>
 			</div>
 			<div className="cardsContainer">
 				{plans.map((plan) => (

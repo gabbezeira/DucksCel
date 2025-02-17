@@ -4,6 +4,7 @@ import '@gs'
 export const Container = styled.div`
   display: flex;
   align-items: center;
+  width: 14rem;
   flex-direction: column;
   gap: 1.25rem;
 
@@ -14,8 +15,8 @@ export const Container = styled.div`
     justify-content: space-between;
     flex-shrink: 0;
     
-    width: 15rem;
-    height: 76.625rem;
+    width: 100%;
+    height: auto;
     padding: 1.25rem 2rem;
 
     background-color: var(--card-color);
@@ -263,7 +264,7 @@ export const Container = styled.div`
   }
 
   .buyButton {
-    width: 15rem;
+    width: 100%;
     padding: 0.875rem 0rem;
     border-radius: 0.75rem;
     border: none;
@@ -282,6 +283,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
+    width: 100% !important;
 		padding: 0.25rem 2rem;
 
     .left {
@@ -296,5 +298,10 @@ export const Container = styled.div`
     .right {
      display: none;
     }
-	}
+
+    .buyButton {
+      width: 20rem;
+    }
+  }
+
 `

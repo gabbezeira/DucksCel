@@ -1,6 +1,13 @@
-import { Banner, Menu, Topframe, Underbanner } from '@components'
-import { Cards } from './components'
-import { About } from './components/about'
+import {
+	About,
+	Banner,
+	Cards,
+	Menu,
+	Services,
+	Topframe,
+	Underbanner,
+} from '@components'
+import { Testimonials } from './components'
 
 function App() {
 	return (
@@ -11,6 +18,8 @@ function App() {
 			<Underbanner />
 			<Cards />
 			<About />
+			<Services />
+			<Testimonials />
 		</>
 	)
 }

@@ -90,6 +90,7 @@ export const Container = styled.div`
 
   @media (max-width: 768px) {
     padding: 1.875rem;
+    padding-bottom: 3.75rem;
     gap: 3.75rem;
 
     .about {

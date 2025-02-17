@@ -15,14 +15,14 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
 
-    .topTilte {
+    .top {
       font-size: 1.25rem;
       letter-spacing: 0.125rem;
       color: var(--primary-color);
       text-transform: uppercase;
     }
 
-    .title {
+    .bottom {
       font-size: 2.25rem;
       color: var(--text-color);
       text-transform: uppercase;
@@ -32,7 +32,7 @@ export const Container = styled.div`
 
   .cardsContainer {
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: row;
     justify-content: space-between;
 
@@ -46,7 +46,11 @@ export const Container = styled.div`
 
     .cardsContainer {
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
       gap: 2rem;
+
+      padding: 0;
     }
 	}
 `
