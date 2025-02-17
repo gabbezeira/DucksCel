@@ -34,8 +34,8 @@ export const Container = styled.div`
     display: flex;
     align-items: start;
     flex-direction: row;
-    justify-content: space-between;
-
+    justify-content: center;
+    gap: 2.75rem;
     width: 100%;
   }
 

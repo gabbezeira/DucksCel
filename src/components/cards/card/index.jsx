@@ -65,7 +65,7 @@ export function Card({
 
 	return (
 		<Container>
-			<div className="cards">
+			<div className="card">
 				<h1 className="planName">{name}</h1>
 
 				<div className="details">

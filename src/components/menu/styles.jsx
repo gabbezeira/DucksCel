@@ -58,7 +58,7 @@ export const Container = styled.div`
 
 			&:hover {
 				background-color: var(--secondary-color);
-				color: var(--white-color);
+				color: var(--primary-color);
 			}
 		}
 	}

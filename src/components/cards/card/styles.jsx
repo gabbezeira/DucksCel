@@ -4,16 +4,16 @@ import '@gs'
 export const Container = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 14rem;
   flex-direction: column;
   gap: 1.25rem;
 
-  .cards {
+  .card {
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: space-between;
-    flex-shrink: 0;
     
     width: 100%;
     height: auto;
@@ -283,7 +283,8 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
-    width: 100% !important;
+    max-width: 23rem;
+    width: 100%;
 		padding: 0.25rem 2rem;
 
     .left {
