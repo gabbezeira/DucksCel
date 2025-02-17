@@ -55,10 +55,19 @@ export const Container = styled.div`
       }
 
       .content {
-        font-size: 0.875rem;
-        font-weight: 500;
-        color: var(--text-color);
-        text-align: start;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: start;
+        width: 100%;
+        gap: 0.625rem;
+
+        .text {
+          font-size: 0.875rem;
+          font-weight: 500;
+          color: var(--text-color);
+          text-align: start;
+        }
       }
 
       .button {
@@ -68,7 +77,7 @@ export const Container = styled.div`
 
         width: max-content;
         height: 2.5rem;
-        padding: 0.25rem 0.5rem;
+        padding: 0.5rem 0.875rem;
 
         color: var(--white-color);
         font-weight: 500;
