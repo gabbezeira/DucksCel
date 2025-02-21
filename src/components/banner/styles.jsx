@@ -12,5 +12,7 @@ export const Container = styled.div`
 
   @media (max-width: 768px){
     background-position: center;
+    background-image: ${({ $backgroundImageMobile }) => `url(${$backgroundImageMobile})`};
+    height: 33.75rem;
   }
 `
