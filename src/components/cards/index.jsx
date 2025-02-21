@@ -5,7 +5,7 @@ import { Container } from './styles'
 export function Cards() {
 	return (
 		<Container>
-			<div className="texts">
+			<div className="texts" id="planos">
 				<div className="top">Escolha o melhor</div>
 				<div className="bottom">Plano para você</div>
 			</div>

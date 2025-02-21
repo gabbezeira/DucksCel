@@ -18,13 +18,13 @@ export const Menu = () => {
 					<a href="#">Início</a>
 				</li>
 				<li className="item">
-					<a href="planos">Planos</a>
+					<a href="#planos">Planos</a>
 				</li>
 				<li className="item">
-					<a href="sobre">Sobre</a>
+					<a href="#sobre">Sobre</a>
 				</li>
 				<li className="item">
-					<a href="termos">Termos e Regulamentos</a>
+					<a href="#termos">Termos e Regulamentos</a>
 				</li>
 				<button type="button" className="button">
 					Área do Cliente

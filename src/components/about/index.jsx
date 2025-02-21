@@ -5,7 +5,7 @@ import { Container } from './styles'
 
 export const About = () => (
 	<Container>
-		<div className="about">
+		<div className="about" id="sobre">
 			<img src={Image} alt="Image" className="image" />
 			<div className="texts">
 				<div className="title">
