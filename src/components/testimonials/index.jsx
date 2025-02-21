@@ -6,8 +6,8 @@ export function Testimonials() {
 	return (
 		<Container>
 			<div className="texts">
-				<div className="top">Escolha o melhor</div>
-				<div className="bottom">Plano para você</div>
+				<div className="top">O que nossos</div>
+				<div className="bottom">Clientes dizem?</div>
 			</div>
 			<div className="testimonials">
 				<div className="testimonial">
