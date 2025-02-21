@@ -7,6 +7,7 @@ export const Container = styled.div`
 
   background-image: ${({ $backgroundImage }) => `url(${$backgroundImage})`};
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 
   @media (max-width: 768px){

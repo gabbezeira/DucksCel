@@ -73,6 +73,9 @@ export const Container = styled.div`
 `
 
 export const MobileMenuButton = styled.button`
+	position: ${({ $isOpen }) => ($isOpen ? 'fixed' : 'absolute')};
+	top: 5.3125rem;
+	right: 1.875rem;
 	display: none;
 	background: none;
 	border: none;

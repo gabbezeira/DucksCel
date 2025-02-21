@@ -2,12 +2,13 @@ import {
 	About,
 	Banner,
 	Cards,
+	Footer,
 	Menu,
 	Services,
+	Testimonials,
 	Topframe,
 	Underbanner,
 } from '@components'
-import { Testimonials } from './components'
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 			<About />
 			<Services />
 			<Testimonials />
+			<Footer />
 		</>
 	)
 }
