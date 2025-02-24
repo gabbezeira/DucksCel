@@ -25,11 +25,18 @@ export function Card({
 	}
 
 	const toggleExtra = (extra) => {
-		setSelectedExtras((prev) =>
-			prev.includes(extra)
+		setSelectedExtras((prev) => {
+			const isAlola = extra.includes('alola')
+			if (isAlola) {
+				const filteredExtras = prev.filter((item) => !item.includes('alola'))
+				return prev.includes(extra)
+					? filteredExtras
+					: [...filteredExtras, extra]
+			}
+			return prev.includes(extra)
 				? prev.filter((item) => item !== extra)
-				: [...prev, extra],
-		)
+				: [...prev, extra]
+		})
 	}
 
 	const totalPrice = useMemo(() => {
@@ -76,30 +83,6 @@ export function Card({
 					<p className="planDescription">{description}</p>
 				</div>
 
-				<div className="unlimited">
-					<div className="unlimitedButton">Fale ilimitado</div>
-					<div className="unlimitedButton">Whatsapp ilimitado</div>
-				</div>
-
-				<div className="divisor" />
-
-				<div className="apps">
-					<div className="texts">
-						<h1 className="title">Apps Ilimitados</h1>
-						<p className="description">Sem descontar da internet</p>
-					</div>
-					<div className="icons">
-						<div className="logos">
-							{apps.map((app) => (
-								<img key={app} className="logo" src={Logos[app]} alt={app} />
-							))}
-						</div>
-						<div className="appsList">{apps.join(', ')}.</div>
-					</div>
-				</div>
-
-				<div className="divisor" />
-
 				<div className="extras">
 					<div className="texts">
 						<h1 className="title">Alola Clube de Benefícios</h1>
@@ -117,8 +100,6 @@ export function Card({
 					</a>
 				</div>
 
-				<div className="divisor" />
-
 				<div className="extras">
 					<div className="texts">
 						<h1 className="title">Melhore seu Plano</h1>
@@ -128,8 +109,6 @@ export function Card({
 					{renderExtra('deezer')}
 					{renderExtra('funeral')}
 				</div>
-
-				<div className="divisor" />
 
 				<div className="price">
 					<p className="finalPrice">
