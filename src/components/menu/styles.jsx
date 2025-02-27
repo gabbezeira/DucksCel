@@ -11,13 +11,8 @@ export const Container = styled.div`
 	background-color: var(--primary-color);
 
 	.logo {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 6.25rem;
-		height: 3.125rem;
-		background-color: var(--white-color);
-		border-radius: 0.625rem;
+		width: 7.5rem;
+		height: auto;
 	}
 
 	.items {

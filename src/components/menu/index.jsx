@@ -1,3 +1,4 @@
+import Logo from '@assets/logo.png'
 import { X as IconClose, Menu as IconMenu } from 'lucide-react'
 import { useState } from 'react'
 import { Container, MobileMenu, MobileMenuButton } from './styles'
@@ -11,7 +12,7 @@ export const Menu = () => {
 
 	return (
 		<Container>
-			<div className="logo">Logo</div>
+			<img className="logo" src={Logo} />
 
 			<ul className="items">
 				<li className="item">

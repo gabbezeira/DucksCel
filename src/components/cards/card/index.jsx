@@ -14,8 +14,6 @@ export function Card({
 
 	const extras = {
 		alolaStart: { price: 19.9, label: 'Alola Start', logo: Logos.Alola },
-		alolaPremium: { price: 29.9, label: 'Alola Premium', logo: Logos.Alola },
-		alolaDeluxe: { price: 49.9, label: 'Alola Deluxe', logo: Logos.Alola },
 		deezer: { price: 9.9, label: 'Deezer Premium', logo: Logos.Deezer },
 		funeral: {
 			price: 19.9,

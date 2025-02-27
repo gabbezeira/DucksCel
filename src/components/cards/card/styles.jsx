@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 14rem;
+  width: 15rem;
   flex-direction: column;
   gap: 1.25rem;
 
@@ -17,7 +17,7 @@ export const Container = styled.div`
     
     width: 100%;
     height: auto;
-    padding: 1.25rem 2rem;
+    padding: 1.2rem 2rem;
 
     background-color: var(--card-color);
     border: 0.5px solid var(--stroke-color);
@@ -169,7 +169,6 @@ export const Container = styled.div`
         width: 100%;
 
         align-items: start;
-        text-align: start;
 
         .title {
           font-size: 0.75rem;
@@ -235,6 +234,7 @@ export const Container = styled.div`
         color: var(--primary-color);
         font-weight: 700;
         text-align: center;
+        white-space: nowrap;
       }
     }
 
