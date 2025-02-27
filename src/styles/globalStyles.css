@@ -9,8 +9,8 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
-	/** Brand Colors **/
-	--primary-color: #ed681b;
+	/** Brand Colors ed681b **/
+	--primary-color: #eb5916;
 	--primary-color-opacity: rgba(103, 60, 202, 0.15);
 
 	--secondary-color: #ffc412;
