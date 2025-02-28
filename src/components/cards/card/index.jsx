@@ -13,7 +13,11 @@ export function Card({
 	const [selectedExtras, setSelectedExtras] = useState([])
 
 	const extras = {
-		alolaStart: { price: 19.9, label: 'Alola Start', logo: Logos.Alola },
+		alolaStart: {
+			price: 19.9,
+			label: 'Alola Clube de Benefícios',
+			logo: Logos.Alola,
+		},
 		deezer: { price: 9.9, label: 'Deezer Premium', logo: Logos.Deezer },
 		funeral: {
 			price: 19.9,
