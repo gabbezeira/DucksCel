@@ -12,7 +12,7 @@ export function Testimonials() {
 			<div className="testimonials">
 				<div className="testimonial">
 					<div className="top">
-						<img className="avatar" src={user1} />
+						<img className="avatar" src={user1} alt="foto do cliente" />
 						<div className="name">Roberto gentil</div>
 					</div>
 					<p className="bottom">
@@ -22,7 +22,7 @@ export function Testimonials() {
 				</div>
 				<div className="testimonial">
 					<div className="top">
-						<img className="avatar" src={user2} />
+						<img className="avatar" src={user2} alt="foto do cliente" />
 						<div className="name">Gabriel Alves</div>
 					</div>
 					<p className="bottom">

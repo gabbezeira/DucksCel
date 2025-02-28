@@ -17,7 +17,7 @@ export const Services = () => (
 		</div>
 		<div className="services">
 			<div className="service">
-				<img className="icon" src={icon1} />
+				<img className="icon" src={icon1} alt="icone cobertura" />
 				<div className="bottom">
 					<div className="title">Cobertura</div>
 					<div className="content">
@@ -27,7 +27,7 @@ export const Services = () => (
 				</div>
 			</div>
 			<div className="service">
-				<img className="icon" src={icon2} />
+				<img className="icon" src={icon2} alt="icone Apps" />
 				<div className="bottom">
 					<div className="title">Apps</div>
 					<div className="content">
@@ -36,7 +36,7 @@ export const Services = () => (
 				</div>
 			</div>
 			<div className="service">
-				<img className="icon" src={icon3} />
+				<img className="icon" src={icon3} alt="icone Ilimitados" />
 				<div className="bottom">
 					<div className="title">Ilimitados</div>
 					<div className="content">
@@ -46,7 +46,7 @@ export const Services = () => (
 				</div>
 			</div>
 			<div className="service">
-				<img className="icon" src={icon4} />
+				<img className="icon" src={icon4} alt="icone 5G" />
 				<div className="bottom">
 					<div className="title">5G</div>
 					<div className="content">

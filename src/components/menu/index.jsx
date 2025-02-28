@@ -12,7 +12,7 @@ export const Menu = () => {
 
 	return (
 		<Container>
-			<img className="logo" src={Logo} />
+			<img className="logo" src={Logo} alt="logo" />
 
 			<ul className="items">
 				<li className="item">

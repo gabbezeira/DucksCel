@@ -17,7 +17,12 @@ export function Card({
 		deezer: { price: 9.9, label: 'Deezer Premium', logo: Logos.Deezer },
 		funeral: {
 			price: 19.9,
-			label: 'Plano Funerário',
+			label: 'Plano Funerário Individual',
+			info: '(*Plano Assistencial Funerário com cremação e abrangência nacional)',
+		},
+		funeralFamily: {
+			price: 99.9,
+			label: 'Plano Funerário até 5 pessoas',
 			info: '(*Plano Assistencial Funerário com cremação e abrangência nacional)',
 		},
 	}
@@ -48,7 +53,7 @@ export function Card({
 		const extra = extras[extraKey]
 		return (
 			<div
-				className={`extraContent ${extraKey === 'funeral' ? 'start' : ''}`}
+				className={`extraContent ${extraKey === 'funeral' || 'funeralFamily' ? 'start' : ''}`}
 				key={extraKey}
 			>
 				<input
@@ -106,6 +111,7 @@ export function Card({
 
 					{renderExtra('deezer')}
 					{renderExtra('funeral')}
+					{renderExtra('funeralFamily')}
 				</div>
 
 				<div className="price">
