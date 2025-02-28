@@ -60,6 +60,7 @@ export function Card({
 					type="checkbox"
 					checked={selectedExtras.includes(extraKey)}
 					onChange={() => toggleExtra(extraKey)}
+					id={extra.label}
 				/>
 				{extra.logo && (
 					<img className="logo" src={extra.logo} alt={extra.label} />
